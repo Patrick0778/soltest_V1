@@ -8,6 +8,24 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -30,6 +48,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "myfavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -37,7 +68,20 @@
 						"type": "string"
 					}
 				],
-				"name": "nameToFavoriteNumber",
+				"name": "nameToFavoritNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -75,7 +119,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			".git/SimpleStorage.sol": "SimpleStorage"
+			"SimpleStorage_V2.sol": "SimpleStorage"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -89,12 +133,12 @@
 		"remappings": []
 	},
 	"sources": {
-		".git/SimpleStorage.sol": {
-			"keccak256": "0xe6332321504265efca18ade696391e5649c563ddb1462193dfc962f00e0f879f",
+		"SimpleStorage_V2.sol": {
+			"keccak256": "0xef5a8d7af40902a470324d4e34736bfed7d503106f587e8837883d010e0b13d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://84bf7ea9826ecafe03c39e5737f6af3749e8f09234a14b88f8a581038610e84b",
-				"dweb:/ipfs/QmasnXnSiE74EFviL5Ky122zVyVS8Gg7K1EV7r8q1v52uC"
+				"bzz-raw://f6de71221d259327695764ce494a499a970b66a1decc89b06055758db29e4900",
+				"dweb:/ipfs/Qme5JZW9cnv7CuUsGvYJeqvnwxukS9JpBVCVQrgGE3NsRC"
 			]
 		}
 	},
